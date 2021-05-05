@@ -170,8 +170,6 @@ Return
 ~vk1D & Q::
     Send,{Blind}{Esc}
     Return
-~F13 & P::
-~vk1D & P::
 ~F13 & vkBBsc027::
 ~vk1D & vkBBsc027::
 ~F13 & @::
@@ -194,14 +192,23 @@ Return
 ;~vk1D & I::Send,{Blind}{Up}      ; 無変換 + I = 上カーソルキー
 ;~vk1D & L::Send,{Blind}{Right}   ; 無変換 + L = 右カーソルキー
 
+;Hと;でHomeとEndキー 
+~F13 & Y::
+~vk1D & Y::
+    Send,{Blind}{Home}
+    Return    ; 無変換 + H = Home
+~F13 & P::
+~vk1D & P::
+    Send,{Blind}{End}  ; 無変換 + ; = End
+    Return
 ;UとOでHomeとEndキー 
 ~F13 & U::
 ~vk1D & U::
-    Send,{Blind}{Home}
-    Return    ; 無変換 + U = Hom
+    Send,{Blind}{Ctrl Down}{Left}{Ctrl Up}
+    Return    ; 無変換 + U = Home
 ~F13 & O::
 ~vk1D & O::
-    Send,{Blind}{End}  ; 無変換 + O = End
+    Send,{Blind}{Ctrl Down}{Right}{Ctrl Up}  ; 無変換 + O = End
     Return
 ;EとDでPgUp、PgDnキー
 ~F13 & E::
