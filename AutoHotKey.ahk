@@ -170,12 +170,12 @@ Return
 ~vk1D & Q::
     Send,{Blind}{Esc}
     Return
-~F13 & vkBBsc027::
-~vk1D & vkBBsc027::
+~F13 & vkBB::
+~vk1D & vkBB::
 ~F13 & @::
 ~vk1D & @::
-~F13 & vkBAc028::
-~vk1D & vkBAsc028::
+~F13 & vkBA::
+~vk1D & vkBA::
     Send,{Blind}{Enter}
     Return
 ~F13 & [::
