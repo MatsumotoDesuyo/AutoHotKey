@@ -173,8 +173,8 @@
             },
             "to": [
               {
-                "key_code": "left_arrow",
-                "modifiers": [ "fn" ]
+                "key_code": "a",
+                "modifiers": [ "command" ]
               }
             ]
           },
@@ -191,8 +191,8 @@
             },
             "to": [
               {
-                "key_code": "right_arrow",
-                "modifiers": [ "fn" ]
+                "key_code": "e",
+                "modifiers": [ "command" ]
               }
             ]
           }
@@ -332,6 +332,23 @@
           {
             "type": "basic",
             "from": {
+              "key_code": "semicolon",
+              "modifiers": {
+                "mandatory": ["command", "shift", "option", "control"],
+                "optional": [
+                  "any"
+                ]
+              }
+            },
+            "to": [
+              {
+                "key_code": "return_or_enter"
+              }
+            ]
+          },
+          {
+            "type": "basic",
+            "from": {
               "key_code": "backslash",
               "modifiers": {
                 "mandatory": ["command", "shift", "option", "control"],
@@ -350,6 +367,23 @@
             "type": "basic",
             "from": {
               "key_code": "close_bracket",
+              "modifiers": {
+                "mandatory": ["command", "shift", "option", "control"],
+                "optional": [
+                  "any"
+                ]
+              }
+            },
+            "to": [
+              {
+                "key_code": "delete_or_backspace"
+              }
+            ]
+          },
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "equal_sign",
               "modifiers": {
                 "mandatory": ["command", "shift", "option", "control"],
                 "optional": [
