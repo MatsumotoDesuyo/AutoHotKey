@@ -178,9 +178,12 @@ Return
 ~vk1D & vkBA::
     Send,{Blind}{Enter}
     Return
+~F13 & ^::
+~vk1D & ^::
+    Send,{Blind}{Del}
 ~F13 & [::
 ~vk1D & [::
-    Send,{Blind}{Del}
+    Send,{Blind}{BS}
     Return
 ~F13 & ]::
 ~vk1D & ]::
