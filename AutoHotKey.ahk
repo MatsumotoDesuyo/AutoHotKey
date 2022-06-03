@@ -165,6 +165,7 @@ Return
 ~F13 & @::
 ~vk1D & @::
     Send,{Blind}{Del}
+    Return
 ~F13 & vkBA::
 ~vk1D & vkBA::
     Send,{Blind}{BS}
