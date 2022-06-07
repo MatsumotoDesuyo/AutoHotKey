@@ -308,7 +308,8 @@
             },
             "to": [
               {
-                "key_code": "return_or_enter"
+                "key_code": "delete_or_backspace",
+                "modifiers": [ "fn" ]
               }
             ]
           },
@@ -325,7 +326,7 @@
             },
             "to": [
               {
-                "key_code": "return_or_enter"
+                "key_code": "delete_or_backspace"
               }
             ]
           },
@@ -343,58 +344,6 @@
             "to": [
               {
                 "key_code": "return_or_enter"
-              }
-            ]
-          },
-          {
-            "type": "basic",
-            "from": {
-              "key_code": "backslash",
-              "modifiers": {
-                "mandatory": ["command", "shift", "option", "control"],
-                "optional": [
-                  "any"
-                ]
-              }
-            },
-            "to": [
-              {
-                "key_code": "delete_or_backspace"
-              }
-            ]
-          },
-          {
-            "type": "basic",
-            "from": {
-              "key_code": "close_bracket",
-              "modifiers": {
-                "mandatory": ["command", "shift", "option", "control"],
-                "optional": [
-                  "any"
-                ]
-              }
-            },
-            "to": [
-              {
-                "key_code": "delete_or_backspace"
-              }
-            ]
-          },
-          {
-            "type": "basic",
-            "from": {
-              "key_code": "equal_sign",
-              "modifiers": {
-                "mandatory": ["command", "shift", "option", "control"],
-                "optional": [
-                  "any"
-                ]
-              }
-            },
-            "to": [
-              {
-                "key_code": "delete_or_backspace",
-                "modifiers": [ "fn" ]
               }
             ]
           },
